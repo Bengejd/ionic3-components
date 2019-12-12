@@ -97,7 +97,9 @@ export class LoginInstagramPage {
         % this.colors.length;
 
     }
+  }
 
+  initializeGradient() {
     setInterval(() => { this.updateGradient(); }, 40);
   }
 }
